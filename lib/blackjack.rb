@@ -63,7 +63,7 @@ def runner
   # code runner here
   welcome
   card_total = initial_round
-  until card_total >
+  until card_total > 21 do
   display_card_total
   if prompt_user == "s"
     prompt_user
