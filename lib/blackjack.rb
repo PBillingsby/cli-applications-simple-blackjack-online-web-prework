@@ -71,5 +71,9 @@ def runner
   else
     invalid_command
     prompt_user
+  end
+  if card_total > 21
+    end_game
+  end
 end
     
