@@ -64,17 +64,6 @@ def runner
   welcome
   card_total = initial_round
   until card_total > 21 do
-  display_card_total
-  if prompt_user == "s"
-    prompt_user
-  elsif prompt_user == "h"
-    card_total += deal_card
-  else
-    invalid_command
-    prompt_user
-  end
-  if card_total > 21
-    end_game
-  end
+    card_total[hit?]
 end
     
