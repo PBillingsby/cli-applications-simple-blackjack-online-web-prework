@@ -51,7 +51,7 @@ end
 
 def invalid_command
   num_arr = ["h", "s"]
-  if input !include(num_arr)
+  if prompt_user !include(num_arr)
     puts "Please enter a valid command"
   end
   # code invalid_command here
