@@ -53,7 +53,7 @@ end
 
 def invalid_command
   num_arr = ["h", "s"]
-  if num !
+  if num !include(num_arr)
     puts "Please enter a valid command"
   end
   # code invalid_command here
