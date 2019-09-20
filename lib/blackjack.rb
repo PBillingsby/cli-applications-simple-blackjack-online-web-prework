@@ -50,11 +50,6 @@ def hit?(card_total)
 end
 
 def invalid_command
-  num_arr = ["h", "s"]
-  if prompt_user !include(num_arr)
-    puts "Please enter a valid command"
-    prompt_user
-  end
   # code invalid_command here
 end
 
