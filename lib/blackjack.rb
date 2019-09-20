@@ -64,5 +64,9 @@ def runner
   welcome
   deal_card
   prompt_user
+  if prompt_user == "s"
+    prompt_user
+  elsif prompt_user == "h"
+    card_total += deal_card 
 end
     
