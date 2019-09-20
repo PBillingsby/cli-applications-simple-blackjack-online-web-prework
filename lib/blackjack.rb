@@ -62,8 +62,9 @@ end
 def runner
   # code runner here
   welcome
-  deal_card
-  prompt_user
+  initial_round
+  hit? 
+  display_card_total
   if prompt_user == "s"
     prompt_user
   elsif prompt_user == "h"
