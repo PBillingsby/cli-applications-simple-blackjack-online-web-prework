@@ -67,6 +67,9 @@ def runner
   if prompt_user == "s"
     prompt_user
   elsif prompt_user == "h"
-    card_total += deal_card 
+    card_total += deal_card
+  else
+    invalid_command
+    prompt_user
 end
     
