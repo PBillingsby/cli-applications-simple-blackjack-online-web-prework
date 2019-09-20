@@ -52,7 +52,8 @@ def hit?(card_total)
 end
 
 def invalid_command
-  if num != ("h" or "s")
+  num_arr = ["h", "s"]
+  if num !
     puts "Please enter a valid command"
   end
   # code invalid_command here
