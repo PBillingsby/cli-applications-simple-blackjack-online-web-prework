@@ -51,6 +51,8 @@ end
 
 def invalid_command
   # code invalid_command here
+  while prompt_user != ["h", "s"]
+    puts "Please enter a valid command"
 end
 
 #####################################################
